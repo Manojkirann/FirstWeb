@@ -1,0 +1,321 @@
+/* importing font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+  
+}
+
+
+/**********************Nav bar***********************/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    position:sticky;
+    max-height: auto;
+    max-width: auto;
+    align-items: center;
+    padding: 5px;
+    flex-wrap: wrap;
+    border: 0.05px solid black;
+   
+}
+.navbar .logo{
+    font-size: 20px;
+    font-weight: bold;
+}
+.navitems li{
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5px;
+    border-radius: 25px;
+    font-size: 15px;
+
+}
+.navitems li:hover{
+    color: white;
+    background-color: black;
+    transition: all 0.1s ease-in;
+    cursor: pointer;
+}
+
+.navitems li{
+    text-decoration-style: none ;
+}
+.navitems i{
+    font-size: 35px;
+    margin: 7px;
+}
+i:hover{
+    cursor: pointer;
+}
+/***************************************************/
+
+/***********************Header**********************/
+.header{
+    flex-wrap: wrap;
+    background: url(images/proj1.webp);
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    font-size: 40px;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    padding-left: 50px;
+    
+}
+.header h1{
+    font-size: 70px;
+    color: white;
+    margin-bottom: 10px;
+}
+.header p{
+    font-size: 35px;
+    color: white;
+    margin-bottom: 10px;
+
+}
+.header button{
+    height: 70px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 45px;
+    border-style: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+/*******************************************************/
+
+/********************PAGE 2*****************************/
+
+.page2{
+    
+    background-color: rgb(243, 247, 247);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+.page2 .pg2heading{
+    font-size: 28.0px;
+}
+.page2 .pg2items{
+    display: flex;
+    padding: 70px;
+    justify-content: space-between;
+    font-size: 20px;
+    gap: 50px;
+    margin-bottom: 30px;
+    margin-left: 0;
+   
+}
+.pg2items li{
+    list-style: none;
+}
+
+.page2 .bt2{
+    height: 70px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 45px;
+    border-style: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+/*****************************************************/
+/*********************Page 3*************************/
+.page3{
+    
+    background: url(images/tvandav.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.page3 img{
+    visibility: hidden;
+}
+.page3 .pg3heading{
+    font-size: 28.0px;
+}
+.page3 .pg3items{
+    display: flex;
+    padding: 70px;
+    justify-content: space-between;
+    font-size: 20px;
+    gap: 50px;
+    margin-bottom: 30px;
+    margin-left: 0;
+   
+}
+.pg3items li{
+    list-style: none;
+}
+
+.page3 .bt3{
+    height: 70px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 45px;
+    border-style: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+.page3 #pg3heading2{
+    font-size: 58.0px;
+    font-weight: bold;
+    margin: 5px;
+}
+/********************************************************/
+/**********************PAGE 4***************************/
+.page4{
+    
+    background: url(images/homeapp.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.page4 .pg4heading{
+    font-size: 28.0px;
+}
+.page4 .pg4items{
+    display: flex;
+    padding: 70px;
+    justify-content: space-between;
+    font-size: 20px;
+    gap: 50px;
+    margin-bottom: 30px;
+    margin-left: 0;
+   
+}
+.pg4items li{
+    list-style: none;
+}
+
+.page4 .bt4{
+    margin-top: 10px;
+    height: 70px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 45px;
+    border-style: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+.page4 #pg4heading{
+    font-size: 58.0px;
+    font-weight: bold;
+    margin: 5px;
+}
+.page4 .pg4para{
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+.page4 .img5 img{
+    margin: 30px;
+    visibility: hidden;
+}
+/********************************************************/
+/***************PAGE 5*******************************/
+.page5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.page5 .pg5heading{
+    font-size: 28.0px;
+}
+.page5 .img61{
+    width: 100;
+    font-size: 40px;
+    display: flex;
+    gap:100px;
+    align-items: center;
+    margin: 20px;
+}
+.page5 ol li{
+    margin: 40px;
+}
+/************************************************************/
+/************************PAGE 6*****************************/
+.page6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+    padding: 30px;
+}
+.page6 .pg6heading{
+    font-size: 28.0px;
+}
+.page6 input{
+    height: 70px;
+    width: 600px;
+    font-size: 20px;
+    padding: 10px 100px 10px 40px;
+    background-color: rgb(228, 228, 228);
+    border-radius: 35px;
+    border: 1px solid rgb(230, 230, 230);
+    margin-bottom: 40px;
+}
+.page6 button{
+    margin: 10px;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid rgb(241, 241, 241);
+    border-radius: 25px;
+}
+.page6 .para2{
+    font-size: 15px;
+    margin-top: 20px;
+}
+/********************************************************/
+.f1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+.f1 .fitems{
+    border: 0.5px solid rgb(211, 210, 210);
+    padding:25px;
+}
+.f1 li{
+   list-style: none; 
+   font-weight: 300;
+   
+}
+
